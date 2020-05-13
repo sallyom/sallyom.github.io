@@ -165,13 +165,13 @@ function isPreloadable(linkElement) {
     return
   }
 
-  if (!['http:', 'https:'].includes(linkElement.protocol)) {
-    return
-  }
+  //if (!['http:', 'https:'].includes(linkElement.protocol)) {
+    //return
+  //}
 
-  if (linkElement.protocol == 'http:' && location.protocol == 'https:') {
-    return
-  }
+  //if (linkElement.protocol == 'http:' && location.protocol == 'https:') {
+   // return
+  //}
 
   if (!allowQueryString && linkElement.search && !('instant' in linkElement.dataset)) {
     return
