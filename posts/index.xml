@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
  <channel>
    <title>Posts on Adventures in Open Sourcery</title>
-   <link>https://sallyom.github.io/posts/</link>
+   <link>https://commandtheline.com/posts/</link>
    <description>Recent content in Posts on Adventures in Open Sourcery</description>
    <generator>Hugo -- gohugo.io</generator>
    <copyright>Copyright &amp;copy; 2020 - Sally Ann O&#39;Malley</copyright>
    <lastBuildDate>Tue, 12 May 2020 23:57:50 -0400</lastBuildDate>
    
-       <atom:link href="https://sallyom.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://commandtheline.com/posts/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
        <title>Allow Me to Introduce Myself</title>
-       <link>https://sallyom.github.io/posts/allow-me-to-introduce-myself/</link>
+       <link>https://commandtheline.com/posts/allow-me-to-introduce-myself/</link>
        <pubDate>Tue, 12 May 2020 23:57:50 -0400</pubDate>
        
-       <guid>https://sallyom.github.io/posts/allow-me-to-introduce-myself/</guid>
+       <guid>https://commandtheline.com/posts/allow-me-to-introduce-myself/</guid>
        <description>&lt;p&gt;I&amp;rsquo;ve been working as a software engineer for a while now.  I&amp;rsquo;m a mom.  This is
 my blog.  How did I get here?  Back up to around the time Linux became a thing.
 I was at Northeastern University, a double major in Chemical Engineering
@@ -64,10 +64,10 @@ OpenShift but I try to mix it up a bit.  I&amp;rsquo;m living my dream.&lt;/p&gt
    
      <item>
        <title>PR Checkout No Remote</title>
-       <link>https://sallyom.github.io/posts/git-checkout-no-remote/</link>
+       <link>https://commandtheline.com/posts/git-checkout-no-remote/</link>
        <pubDate>Sun, 10 May 2020 00:16:29 -0400</pubDate>
        
-       <guid>https://sallyom.github.io/posts/git-checkout-no-remote/</guid>
+       <guid>https://commandtheline.com/posts/git-checkout-no-remote/</guid>
        <description>&lt;h3 id=&#34;you-dont-have-to-add-a-remote-to-checkout-a-pull-request-or-a-friends-branch&#34;&gt;You don&amp;rsquo;t have to add a remote to checkout a Pull Request or a friend&amp;rsquo;s branch!&lt;/h3&gt;
 &lt;p&gt;If you already know this, then move along.
 Whenever I mention to somebody about how I check out a branch to review a PR, 99% of the time,
