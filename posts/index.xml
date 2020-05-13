@@ -1,14 +1,14 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
-   <title>Adventures in Open Sourcery</title>
-   <link>https://sallyom.github.io/</link>
-   <description>Recent content on Adventures in Open Sourcery</description>
+   <title>Posts on Adventures in Open Sourcery</title>
+   <link>https://sallyom.github.io/posts/</link>
+   <description>Recent content in Posts on Adventures in Open Sourcery</description>
    <generator>Hugo -- gohugo.io</generator>
    <copyright>Copyright &amp;copy; 2020 - Sally Ann O&#39;Malley</copyright>
    <lastBuildDate>Tue, 12 May 2020 23:57:50 -0400</lastBuildDate>
    
-       <atom:link href="https://sallyom.github.io/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://sallyom.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
