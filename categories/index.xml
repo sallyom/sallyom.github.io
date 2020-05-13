@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Categories on Adventures in Open Sorcery</title>
+		<link>https://sallyom.github.io/categories/</link>
+		<description>Recent content in Categories on Adventures in Open Sorcery</description>
+		<generator>Hugo -- gohugo.io</generator>
+		
+  		<language>en</language>
+		
+		<managingEditor>Page(/categories) (Sally Ann O&#39;Malley)</managingEditor>
+    	
+		<atom:link href="https://sallyom.github.io/categories/" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Allow Me to Introduce Myself</title>
+			<link>https://sallyom.github.io/post/allow-me-to-introduce-myself/</link>
+			<pubDate>Tue, 12 May 2020 23:57:50 -0400</pubDate>
+			<guid>https://sallyom.github.io/post/allow-me-to-introduce-myself/</guid>
+			<description>I&amp;rsquo;ve been working as a software engineer for a while now. I&amp;rsquo;m a mom. This is my blog. How did I get here? Back up to around the time Linux became a thing. I was at Northeastern University, a double major in Chemical Engineering and Biology. This is my blog so I can brag. I was at NU on a full academic scholarship. I made some good friends, earned good grades, was inducted into Tau Beta Pi, the National Honor Society of Engineers (that&amp;rsquo;s so when I tell you the next part, you don&amp;rsquo;t assume I flunked out of engineering).</description>
+		</item>
+      	
+		<item>
+			<title>PR Checkout No Remote</title>
+			<link>https://sallyom.github.io/post/git-checkout-no-remote/</link>
+			<pubDate>Sun, 10 May 2020 00:16:29 -0400</pubDate>
+			<guid>https://sallyom.github.io/post/git-checkout-no-remote/</guid>
+			<description>You don&amp;rsquo;t have to add a remote to checkout a Pull Request or a friend&amp;rsquo;s branch! If you already know this, then move along. Whenever I mention to somebody about how I check out a branch to review a PR, 99% of the time, they thank me and say, I&#39;ve always just added a new remote! This is way faster, thanks! I figured, then, that this would be a good little blog post, if I ever got around to creating my blog.</description>
+		</item>
+      	
+	</channel>
+</rss>
