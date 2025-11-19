@@ -1,96 +1,23 @@
 
-<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>Categories on Adventures in Open Sourcery</title>
-   <link>https://commandtheline.com/categories/</link>
+   <link>https://sallyom.github.io/categories/</link>
    <description>Recent content in Categories on Adventures in Open Sourcery</description>
    <generator>Hugo -- gohugo.io</generator>
-   <copyright>Copyright &amp;copy; 2020 - Sally Ann O&#39;Malley</copyright>
+   <language>en</language>
+   <copyright>Copyright &amp;copy; 2020-2025 - Sally Ann O&#39;Malley</copyright>
    
-       <atom:link href="https://commandtheline.com/categories/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://sallyom.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
    
-   
-     <item>
-       <title>Allow Me to Introduce Myself</title>
-       <link>https://commandtheline.com/posts/allow-me-to-introduce-myself/</link>
-       <pubDate>Tue, 12 May 2020 23:57:50 -0400</pubDate>
-       
-       <guid>https://commandtheline.com/posts/allow-me-to-introduce-myself/</guid>
-       <description>&lt;p&gt;I&amp;rsquo;ve been working as a software engineer for a while now.  I&amp;rsquo;m a mom.  This is
-my blog.  How did I get here?  Back up to around the time Linux became a thing.
-I was at Northeastern University, a double major in Chemical Engineering
-and Biology.  This is my blog so I can brag.  I was at NU on a full academic
-scholarship.  I made some good friends, earned good grades, was inducted into
-Tau Beta Pi, the National Honor Society of Engineers (that&amp;rsquo;s so when I
-tell you the next part, you don&amp;rsquo;t assume I flunked out of engineering).&lt;/p&gt;
-&lt;p&gt;I did not want to be a Chemical Engineer. I threw away the final year
-of my scholarship to graduate a year early with a generic biology degree with
-which I could do very little.  I had taken a few painting courses along the
-way and I was going to be an artist, live out of a backpack, whatever that
-means. I met my husband.  I studied Sanskrit. I learned to play the flute.
-I moved to Napa, CA.  I traveled.&lt;/p&gt;
-&lt;p&gt;My father was diagnosed with cancer, with 3-6 months to live.
-He passed away 5 months later.  I spent those months with him in Maine.
-I was forced to question my place in the universe, and what it was I was
-meant to do here.  I felt the need to stop puttering around and figure
-that out.&lt;/p&gt;
-&lt;p&gt;Fast forward five years.  I was now the mother of a beautiful daughter and
-baby boy.  I loved and still love being a mom and a wife.  I was plagued
-with the notion that there was something else I was meant to do, that my
-education was incomplete.  This feeling was constant and tiring.&lt;/p&gt;
-&lt;p&gt;There is one class at Northeastern I loved the most. It was a fluid mechanics
-course, during which I wrote my first computer program.  I taught myself just
-enough C to complete an assignment.  I remember sitting in a computer lab
-for hours, tracking down rogue parentheses and semicolons. I remember the
-feeling of victory when I entered some tank measurements, pipe diameters, and
-viscosities, and my program output the time it would take to empty the tank.
-That memory is the reason I enrolled at UMass, to study as many programming
-courses as I could afford, and ended up with a degree in Information Technology and
-an internship at Red Hat.&lt;/p&gt;
-&lt;p&gt;My first two weeks at Red Hat I learned git.  My first pull request merged,
-it was a README addition.  I noticed there weren&amp;rsquo;t many women engineers.  I mean,
-there &lt;em&gt;really&lt;/em&gt; were not many women engineers. That&amp;rsquo;s all I can say about that.
-I&amp;rsquo;m not here to solve that problem, not yet.
-I&amp;rsquo;m learning some things new every single day.  I&amp;rsquo;ll keep learning,
-to be a mentor for anyone who comes in behind me.&lt;/p&gt;
-&lt;p&gt;Speaking of mentors, I&amp;rsquo;ve had many.  I graduated from intern to associate software
-engineer to software engineer.  I&amp;rsquo;m lucky to work with some brilliant people whose
-ideas are shaping the future.  I want to share some of the cool things I&amp;rsquo;ve learned
-from working with lots of really smart people.  Lately it&amp;rsquo;s been Kubernetes and
-OpenShift but I try to mix it up a bit.  I&amp;rsquo;m living my dream.&lt;/p&gt;
-</description>
-     </item>
    
      <item>
-       <title>PR Checkout No Remote</title>
-       <link>https://commandtheline.com/posts/git-checkout-no-remote/</link>
-       <pubDate>Sun, 10 May 2020 00:16:29 -0400</pubDate>
+       <title>I Didn&#39;t Change Jobs - AI Changed the Job I Have</title>
+       <link>https://sallyom.github.io/posts/i-have-a-new-job/</link>
+       <pubDate>Tue, 18 Nov 2025 20:00:00 -0500</pubDate>
        
-       <guid>https://commandtheline.com/posts/git-checkout-no-remote/</guid>
-       <description>&lt;h3 id=&#34;you-dont-have-to-add-a-remote-to-checkout-a-pull-request-or-a-friends-branch&#34;&gt;You don&amp;rsquo;t have to add a remote to checkout a Pull Request or a friend&amp;rsquo;s branch!&lt;/h3&gt;
-&lt;p&gt;If you already know this, then move along.
-Whenever I mention to somebody about how I check out a branch to review a PR, 99% of the time,
-they thank me and say, &lt;code&gt;I&#39;ve always just added a new remote! This is way faster, thanks!&lt;/code&gt; I
-figured, then, that this would be a good little blog post, if I ever got around to creating my
-blog.&lt;/p&gt;
-&lt;p&gt;Say you are tasked with reviewing a colleague&amp;rsquo;s pull request, &lt;em&gt;or&lt;/em&gt; your friend has a much
-needed feature in their branch that you want to take advantage of &lt;em&gt;before&lt;/em&gt; there&amp;rsquo;s a pull
-request.  What do you do? If you don&amp;rsquo;t do this, you&amp;rsquo;re probably doing it the hard way:&lt;/p&gt;
-&lt;p&gt;Note: The repositories mentioned here do not exist.&lt;/p&gt;
-&lt;p&gt;Assume you have your fork of cool-repo checked out locally, and you need to work with
-your friend&amp;rsquo;s branch of cool-repo.&lt;/p&gt;
-&lt;p&gt;Then, here&amp;rsquo;s the little bit of convenience:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;$ cd cool-repo
-
-$ git fetch git@github.com:your-friend/cool-repo.git much-needed-branch
-
-$ git checkout FETCH_HEAD
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now, you&amp;rsquo;ll be in detached mode, and if you&amp;rsquo;re simply reviewing a PR, go ahead and work from there.
-However, if you&amp;rsquo;ll be messing around and making changes in this branch, you can create a
-full-fledged branch by:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ git checkout -b now-it-is-my-much-needed-branch&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s it! Hope I save you a few seconds of adding/deleting remotes.&lt;/p&gt;
-</description>
+       <guid>https://sallyom.github.io/posts/i-have-a-new-job/</guid>
+       <description>&lt;h1 id=&#34;i-didnt-change-jobs---ai-changed-the-job-i-have&#34;&gt;I Didn&amp;rsquo;t Change Jobs - AI Changed the Job I Have&lt;/h1&gt;&lt;h3 id=&#34;how-the-last-three-months-quietly-transformed-my-role-as-a-software-engineer&#34;&gt;&lt;em&gt;How the last three months quietly transformed my role as a software engineer&lt;/em&gt;&lt;/h3&gt;&lt;p&gt;Over the last three months, something happened to me as a software developer that I didn&amp;rsquo;t consciously choose,negotiate, or plan for. It wasn&amp;rsquo;t a new language, a new framework, or a new tool that I decided to adopt. It wasquieter than that and more profound. At some point this fall, I realized that the way I work had completely changed.&lt;/p&gt;&lt;h2 id=&#34;i-didnt-decide-to-work-differently-ai-became-too-good-to-ignore&#34;&gt;I didn&amp;rsquo;t decide to work differently. AI became too good to ignore.&lt;/h2&gt;&lt;p&gt;Until a few months ago, if I needed a Kubernetes controller with reconcilers, watchers, status updates, CRDs, RBAC,I sat down and wrote it myself. That was normal. That was my job. And then, without any big announcement or event,that normal quietly disappeared.&lt;/p&gt;&lt;p&gt;Today, if I describe that same controller to Claude, what it should watch, what events it reacts to, what statetransitions it handles, the model generates the entire codebase: the scaffolding, the reconcilers, the RBAC, themanifests, even the tests. And more often than not, the result is cleaner and more complete than what I would havewritten.&lt;/p&gt;&lt;p&gt;What&amp;rsquo;s more than that, much of the code I used to write - or have already written in past projects - already existswithin the model&amp;rsquo;s latent knowledge. The patterns, the idioms, the API interactions, the structure of a well-formedcontroller, it&amp;rsquo;s all baked in.&lt;/p&gt;&lt;p&gt;Instead of hunting through old repos or copying code from projects we&amp;rsquo;ve built before, I can access years ofaccumulated patterns through a conversation. The things I used to re-implement or re-discover are compressed insidethe model, waiting to be unpacked. A compressed universe of patterns we used to manually write. And it doesn&amp;rsquo;t only workfor some things or sometimes. I wasn&amp;rsquo;t prepared for its consistency, AI&amp;rsquo;s quiet, reliable power.&lt;/p&gt;&lt;p&gt;And here&amp;rsquo;s what&amp;rsquo;s even more surprising: in many cases, the code isn&amp;rsquo;t needed at all. When the model alreadyunderstands the workflow, and I can give it a runner or tool access, writing a full service becomes redundant. Insteadof generating software artifacts to execute later, I can describe the workflow in plain language, and the AI carriesit out directly.&lt;/p&gt;&lt;p&gt;For many things, we&amp;rsquo;re not just accessing compressed patterns of code, we&amp;rsquo;re bypassing code entirely and delegatingbehavior.&lt;/p&gt;&lt;h2 id=&#34;the-shift-didnt-happen-in-theory-it-happened-in-my-hands-in-my-actual-work&#34;&gt;The shift didn&amp;rsquo;t happen in theory. It happened in my hands, in my actual work.&lt;/h2&gt;&lt;p&gt;This wasn&amp;rsquo;t an abstract idea or something I picked up from a conference talk. It upended how I do the real tasks ofmy real job. Every project. Every script. Every refactor. Every debugging session.&lt;/p&gt;&lt;p&gt;Every single thing I do now I start with my AI partner. Not as an experiment or an isolated spike, not as a quarterlygoal of demonstrating how I&amp;rsquo;m adopting AI, but as my actual daily workflow. Configurations, manifests, bash loops,vLLM arguments, telemetry analysis, architectural diagrams, documentation. All of these arenow collaborations with AI.&lt;/p&gt;&lt;p&gt;Here&amp;rsquo;s another place this shift hit me most: &lt;strong&gt;observability.&lt;/strong&gt;Some of the systems I work with span multiple repos and components, each exposing their own metrics. Before, buildinga Grafana dashboard meant digging through codebases, scraping metric names, and manually assembling panels. Now I askClaude to scan all the repos, extract every metric, group them, identify where there should be ones that don&amp;rsquo;t exist,and generate a full dashboard that satisfies a collection of desired insights from stakeholders. It does this inminutes. It suggests visualizations, metrics, or spans I hadn&amp;rsquo;t considered, based on the patterns of the system&amp;rsquo;scurrent behavior.&lt;/p&gt;&lt;p&gt;Without ceremony or fanfare, my starting point changed. My habits changed before my beliefs did. That&amp;rsquo;s how I knowthis moment is real.&lt;/p&gt;&lt;h2 id=&#34;my-role-shifted-from-coder-to-orchestrator-from-implementer-to-architect&#34;&gt;My role shifted: from coder to orchestrator, from implementer to architect.&lt;/h2&gt;&lt;p&gt;I still write code, but it&amp;rsquo;s no longer the center of what I do, which is probably for the best, because it was neverthe thing I was best at anyway.&lt;/p&gt;&lt;p&gt;And I think about the people who were the best, the ones whose coding skill felt superhuman. I wonder whether thisshift hits them the hardest. Not because the AI outperforms them, but because it forces a quiet realization: the realcraft they&amp;rsquo;ve mastered was never just the code. It was everything around it. Instead of manually implementingeverything, I now describe what I want, let the AI produce a strong first version, and then spend my time shaping it,challenging it, and putting guardrails around it.&lt;/p&gt;&lt;p&gt;The &amp;ldquo;coding&amp;rdquo; part of my work moved up a level. I spend more time thinking about whether something should even be atraditional codebase or whether a conversational interface with a tool-runner is enough. I think about where I needdeterminism and where flexibility is acceptable; what deserves to be a strict function and what can be an AI-guidedworkflow; what constraints the system needs and what architecture will keep it safe, predictable, and adaptable.&lt;/p&gt;&lt;p&gt;My job didn&amp;rsquo;t get easier, it got different. It got bigger. It has become more conceptual and more supervisory. I&amp;rsquo;vestopped thinking of myself as someone who writes all the code and started thinking of myself as someone who designsenvironments for AI to work inside. It&amp;rsquo;s a subtle shift, but a massive one.&lt;/p&gt;&lt;h2 id=&#34;heres-where-a-blur-of-change-snapped-into-focus&#34;&gt;Here&amp;rsquo;s where a blur of change snapped into focus:&lt;/h2&gt;&lt;p&gt;I co-teach a course within Boston University&amp;rsquo;s Faculty of Computing and  Data Sciences, &lt;em&gt;Software EngineeringCareer Prep&lt;/em&gt;. I have the honor of sharing with aspiring data and computer scientists what I do every day. Thissemester, something shook me:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;I can&amp;rsquo;t prepare students for the profession the way I used to.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Not because they don&amp;rsquo;t need fundamentals - they absolutely do - but because the profession they&amp;rsquo;re entering is alreadyvastly different from what it was even a semester ago.&lt;/p&gt;&lt;p&gt;The old rhythm of the job, sketching ideas into code over a few days of learning new APIs, creating tests and documentation,wrestling with git - that world is fading. It&amp;rsquo;s not gone, but it&amp;rsquo;s no longer the center. Nowthe center is something else entirely: clarity, specification, architecture, constraint-setting, and collaborating withAI. Even the most junior engineers will spend more time orchestrating code than typing it.&lt;/p&gt;&lt;p&gt;Their success won&amp;rsquo;t hinge on how fast they can write, but on how well they can think, how clearly they can define aproblem, evaluate a solution, and adapt as the tools evolve. Realizing this as a mentor and teacher is what made theshift undeniable.&lt;/p&gt;&lt;h2 id=&#34;i-didnt-set-out-to-change-how-i-work-ai-just-crossed-a-threshold&#34;&gt;I didn&amp;rsquo;t set out to change how I work. AI just crossed a threshold.&lt;/h2&gt;&lt;p&gt;This isn&amp;rsquo;t hype or speculation. This isn&amp;rsquo;t &amp;ldquo;AI might change software engineering someday.&amp;rdquo;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The job has changed.&lt;/strong&gt;&lt;strong&gt;It changed in the last three months. It changed in the last two weeks.&lt;/strong&gt;&lt;strong&gt;And it changed because AI is becoming capable in a way that makes the old workflow obsolete.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Avoiding or refusing to use AI stopped making sense. The ground moved beneath me.&lt;/p&gt;&lt;h2 id=&#34;and-strangely-enough-the-human-part-of-my-job-got-stronger&#34;&gt;And strangely enough, the human part of my job got stronger.&lt;/h2&gt;&lt;p&gt;As AI takes on more of the mechanical labor, the rogue parentheses and unwanted whitespace, the nil-pointer and race condition hunts,the repetitive boilerplate, my teammates and I spend more time actually talking. More time imagining. More time designing.&lt;/p&gt;&lt;p&gt;We&amp;rsquo;re less hunched over keyboards and more engaged with each other. And because the tedious parts aren&amp;rsquo;t draining ourenergy, we all have more space to explore ideas that once felt too ambitious or too time-consuming. Wild ideas feelmore doable. Innovative solutions feel closer. The ceiling feels higher.&lt;/p&gt;&lt;p&gt;Which is fitting, because even this post was written the same way I now build software: in conversation with my AIpartner, shaping the ideas together, clarifying them like I would with a colleague or a very patient friend. Theprocess even feels a little like therapy for the engineering mind: a space to think out loud, challenge assumptions,and imagine what could be possible.&lt;/p&gt;&lt;h2 id=&#34;this-post-is-simply-a-marker-in-time&#34;&gt;This post is simply a marker in time.&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m going to write more about this, especially what it means for students, for teams, and for the parts of engineeringthat become more important (not less) in this new world.&lt;/p&gt;&lt;p&gt;But this first piece is just to say:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;This is the moment I realized software engineering is being rewritten.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Everything that follows starts here.&lt;/p&gt;</description>
      </item>
    
  </channel>
