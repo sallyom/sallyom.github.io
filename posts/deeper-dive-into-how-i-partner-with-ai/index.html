@@ -108,23 +108,22 @@ absolutely does not mean I have been replaced or am relaxing comfortably on a
 beach somewhere, sipping a mint julep.</p>
 <h2 id="what-i-actually-meant">What I <em>actually</em> meant</h2>
 <p>When I say AI is dramatically better than me at writing code, I am talking very
-specifically about the mechanics of writing code. The scaffolding, gathering dependencies, boilerplate, syntax, and setup.
+specifically about the mechanics of writing code. I haven&rsquo;t gathered data to back the &ldquo;1000x&rdquo; claim,
+I&rsquo;m going with how it feels. I&rsquo;m talking about the boilerplate, tests, formatting, syntax, translations between languages and versions, and setup.
 The repetitive shapes I have written a hundred times before. In that narrow domain, yes, AI is astonishingly good.
-But writing code is one small part of my job. A part that, frankly, has often
-gotten in the way of the more interesting parts.</p>
+But writing code is one small part of my job. And now, I can spend more time on the more interesting parts.</p>
 <p>AI has not removed my role. It has changed where my attention goes.
 I am not doing <em>less</em> work. I am doing <em>different</em> work. In many ways, more demanding work.
 The cognitive load didn’t disappear, it shifted upward.</p>
 <h2 id="what-this-looks-like-in-practice">What this looks like in practice</h2>
-<p>I have been working on observability for <strong>llm-d</strong>, an open source system for
-distributed LLM inference at scale. It&rsquo;s a complex ecosystem with multiple
-components, different GitHub repos, a variety of LLMs, and endless hardware
-configurations. The debugging and performance behaviors vary dramatically.</p>
-<p>Through several Slack threads and conversations with the domain experts, we
+<p>I have been working on observability for <a href="https://llm-d.ai/">llm-d</a>, an open source Kubernetes-native high-performance
+distributed LLM inference framework. It&rsquo;s a complex ecosystem with multiple components, repositories, compatible LLMs,
+and endless hardware configurations and options. The debugging and performance behaviors vary dramatically.</p>
+<p>Through several Slack threads and conversations with the core domain experts, we
 compiled a document listing the most important observability insights — the
 signals engineers rely on to understand a running llm-d system.</p>
 <p>I opened a session with Claude, gave it access to the llm-d repositories, and
-shared the document. In about fifteen minutes, the AI:</p>
+shared the document. In less than an hour, and through a fully engaged, iterative conversation, the AI:</p>
 <ul>
 <li>scanned all relevant codebases</li>
 <li>mapped each desired insight to the exact metrics available</li>
@@ -136,7 +135,7 @@ shared the document. In about fifteen minutes, the AI:</p>
 <p>We then produced documentation explaining what each query shows, when it
 matters, and why. I&rsquo;m currently approaching llm-d distributed tracing in a similar way.</p>
 <p>This wasn&rsquo;t AI replacing engineers. This was AI working alongside us, amplifying the expertise of humans who know
-this system deeply. This is what “1000× better at writing code” means in practice. Not displacement, but rather, acceleration.</p>
+this system deeply. This is what “1000× better at writing code” means in practice. Acceleration, not displacement.</p>
 <h2 id="partnership-not-replacement">Partnership, not replacement</h2>
 <p>The best way I can describe this is that AI is not a substitute engineer. It is
 a partner. A fast, tireless, deeply knowledgeable partner who, in my experience:</p>
