@@ -283,27 +283,36 @@ nav {
 /* Header with headshot */
 .header-with-image {
   display: flex;
-  align-items: center;
-  gap: 1.5em;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2em;
   margin-bottom: 0.5em;
 }
 
 .header-headshot {
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 3px solid rgba(128, 128, 128, 0.2);
   object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+  margin-left: -20px;
+  margin-top: 0.8em;
 }
 
 @media only screen and (max-width: 768px) {
   .header-headshot {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
   }
 
   .header-with-image h1 {
     font-size: 1.8em;
+  }
+
+  .header-with-image {
+    gap: 1em;
   }
 }
 
@@ -323,11 +332,12 @@ footer {
 }
 
 .footer-headshot {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: 2px solid rgba(128, 128, 128, 0.2);
   object-fit: cover;
+  object-position: center top;
   flex-shrink: 0;
 }
 
