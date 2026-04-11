@@ -1,0 +1,228 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Calling All Claws: My Take on Open Source - This is my blog...</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="A collection of stuff I&#39;ve learned." />
+<meta name="author" content="" /><meta property="og:url" content="https://sallyom.github.io/posts/openclaw-and-redhat-and-open-source/">
+  <meta property="og:site_name" content="This is my blog...">
+  <meta property="og:title" content="Calling All Claws: My Take on Open Source">
+  <meta property="og:description" content="As I wrote about in my previous post, I think one of the more interesting opportunities in the agentic AI space may not be building the next OpenClaw, but building around the one that already exists. This piece is about what that could look like in practice, and what I think Red Hat’s history with open source has to teach us.
+I’ve seen a few patterns in how companies try to build a product around an open source project such as OpenClaw. The first is to fork it, add secret sauce, and ship the fork. The second is to study how OpenClaw works, rebuild the idea from scratch in a different way, and sell that version.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-11T15:32:00+01:00">
+    <meta property="article:modified_time" content="2026-04-11T15:32:00+01:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Calling All Claws: My Take on Open Source">
+  <meta name="twitter:description" content="As I wrote about in my previous post, I think one of the more interesting opportunities in the agentic AI space may not be building the next OpenClaw, but building around the one that already exists. This piece is about what that could look like in practice, and what I think Red Hat’s history with open source has to teach us.
+I’ve seen a few patterns in how companies try to build a product around an open source project such as OpenClaw. The first is to fork it, add secret sauce, and ship the fork. The second is to study how OpenClaw works, rebuild the idea from scratch in a different way, and sell that version.">
+
+<meta name="generator" content="Hugo 0.152.2">
+    
+
+  <link rel="stylesheet" href="https://sallyom.github.io/css/normalize.min.css" />
+  <link rel="stylesheet" href="https://sallyom.github.io/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://sallyom.github.io/css/styles.css" /><link rel='stylesheet' href='https://sallyom.github.io/css/custom.css'>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      
+      <div class="header-with-image">
+        <h1>
+          <a href="https://sallyom.github.io/">This is my blog&hellip;</a>
+        </h1>
+        <img src="https://sallyom.github.io/images/headshot-cartoon.png" alt="Sally O'Malley" class="header-headshot">
+      </div>
+
+      <ul id="social-media">
+      </ul>
+      
+      <p><em>This is my blog.</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://sallyom.github.io/about">
+                <i class="fa-li fa  fa-lg"></i><span>About Sally</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Calling All Claws: My Take on Open Source</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2026-04-11T15:32:00&#43;01:00">Apr 11, 2026</time>
+        </li>
+        
+        
+
+        
+
+        <li>7 minute read</li>
+    </ul>
+</aside>
+
+    
+
+    
+      
+
+    
+
+    <p>As I wrote about in my previous post, I think one of the more interesting opportunities in the agentic AI space may not be building
+the next OpenClaw, but building around the one that already exists. This piece is about what that could look like in practice, and
+what I think Red Hat&rsquo;s history with open source has to teach us.</p>
+<p>I&rsquo;ve seen a few patterns in how companies try to build a product around an open source project such as OpenClaw.
+The first is to fork it, add secret sauce, and ship the fork. The second is to study how OpenClaw works,
+rebuild the idea from scratch in a different way, and sell that version.</p>
+<p>Both can look like strategy, but to me they miss something important. I can see how forking sounds like the right choice. You control the code and you can
+differentiate, but you&rsquo;ve also signed up to maintain an entire project by yourself, forever. Every upstream
+improvement now has to be manually ported or ignored. Every security fix can become your problem. Every new contributor who
+shows up to help OpenClaw is strengthening the shared project instead of your fork. The fork starts as freedom and quickly becomes a tax.</p>
+<p>Copying the idea and selling it feels even riskier to me. You&rsquo;re starting from zero with none of the community, none of the
+ecosystem, and none of the trust. You&rsquo;re betting that your reimplementation will matter more than a project with
+hundreds of contributors, and that customers will choose your island over the mainland.</p>
+<p>Having been at Red Hat for over a decade, I&rsquo;ve learned a lot from how it became one of the earliest and most successful companies built entirely on open source.</p>
+<p>Red Hat was founded in 1995 by Bob Young and Marc Ewing, two guys running on credit card debt, selling
+Linux on CDs in Ziploc bags. They became one of the first open source companies to hit a billion dollars in annual
+revenue. The model they built is simple to describe and takes real discipline to follow.</p>
+<h2 id="contribute-back">Contribute back</h2>
+<p>When Red Hat acquires a company, the pattern is to move the important pieces into the open.
+They bought Ansible and open sourced Ansible Tower as the AWX project. They bought Qumranet and kept
+KVM fully open in the Linux kernel. They bought Sistina and released GFS and LVM2 as free software.
+They bought Netscape Directory Server and open sourced it. 3scale was pushed further into the open.
+The pattern is the same: take the proprietary bits, push them upstream, then build your product
+on top of the same open foundation everyone else can use. And for acquisitions of, or investments in, already open source projects,
+make sure they are expertly maintained and fairly governed and continue to thrive.</p>
+<p>Red Hat has historically been among the largest corporate contributors to the Linux kernel, GNOME,
+Kubernetes, Ceph, and Xorg. Red Hat engineers helped create and steward systemd, Podman, Buildah,
+CRI-O, and Fedora. The company helped shape organizations like the Open Container Initiative, the CNCF,
+and the Ceph Foundation. They did it because it works, not for charity.</p>
+<p>Bob Young, Red Hat&rsquo;s co-founder, used to explain the model with ketchup. Heinz dominates the ketchup market with
+roughly 80% share. Ketchup is flavored tomato paste. You can make something that tastes like Heinz in your
+kitchen sink without bending a single copyright rule. People still buy Heinz because Heinz defined what ketchup should
+be: convenience, consistency, brand, trust. The same applies to open source.
+Anyone can take the code and run it. The question is whether they want to, or whether they&rsquo;d rather have
+someone who lives and breathes that software handle it for them.</p>
+<h2 id="this-takes-confidence">This takes confidence</h2>
+<p>This takes confidence, swagger even. You have to celebrate the fact that anyone can run the project for free. You have to
+genuinely want that to be true. Because if you&rsquo;re trying to make the free version worse so people have to pay you,
+that starts to look less like open source to me, and more like bait-and-switch with extra steps.</p>
+<p>The confidence comes from understanding what your customers actually want. In my experience, large enterprises usually don&rsquo;t want to
+run critical software off the shelf of GitHub. They want guarantees, verification, convenience, and support. They want a
+phone number to call at 2 AM when something breaks.</p>
+<p>Red Hat&rsquo;s model is the example I keep coming back to. Fedora is the free, bleeding-edge upstream. CentOS Stream is the stabilization
+layer. RHEL is the enterprise product: hardened, certified, tested, backed by up to ten years of support.
+The code is substantially the same. The difference is the packaging, the testing, the SLAs, the expertise,
+and the long-term commitment. That&rsquo;s the kind of thing customers are willing to pay for.</p>
+<p>OpenShift is built around upstream Kubernetes. The Kubernetes API is exposed. It&rsquo;s a
+CNCF Certified Kubernetes distribution. Red Hat didn&rsquo;t fork Kubernetes. They pushed enterprise lessons
+about access control, security, networking, and operations back upstream. Then they built a carefully
+curated, opinionated experience on top.</p>
+<p>There is a fine line between contributing back and adding something differentiating, but I don&rsquo;t think it has to be as
+blurry as it can seem. The way I think about it is that if a change would benefit the whole ecosystem,
+consider pushing it upstream. If it&rsquo;s a specific opinion about how to assemble, configure, or operate the software for a
+particular audience, that can be your product.</p>
+<p>Bug fixes should generally go upstream. Security patches should generally go upstream. Performance improvements and core
+features that make the foundation stronger should generally go upstream. Your opinions about defaults, your integration testing,
+your compliance certifications, your support infrastructure, and your curated plugin ecosystem can be your product.</p>
+<p>When Red Hat&rsquo;s engineers help push enterprise requirements upstream, they don&rsquo;t keep that work as an OpenShift-only advantage.
+Security, architecture, and operations improvements make Kubernetes better for everyone, including their competitors.
+And that&rsquo;s fine, because their competitors having a stronger upstream Kubernetes doesn&rsquo;t diminish what Red Hat offers.
+It can strengthen the foundation that Red Hat builds on.</p>
+<p>Now back to OpenClaw. OpenClaw isn&rsquo;t a product and it isn&rsquo;t a company. It&rsquo;s an open foundation inviting everyone to join in
+and see what&rsquo;s possible. I think there will be room for many people and companies to make money with OpenClaw if that&rsquo;s what they want to do.
+One strong way to do that is to help make OpenClaw as good as it can be. Help make it a solid foundation for your company and many others.
+Work together on the core, then fan out and pursue the ideas that become possible with that shared foundation.</p>
+<p>If you fork OpenClaw and add secret sauce, I would treat that as a last resort. Only when a community
+proves hostile to reasonable contributions and your customers have a dire, specific need would I consider
+shipping a fork. And even then, I would hope the long-term goal is to make the fork unnecessary.</p>
+<p>If you copy the idea and repackage it, you may be leaving the bigger opportunity on the table. I suspect the companies best positioned around
+OpenClaw will be the ones that contribute meaningfully to it. That&rsquo;s not just my idealism, and I do have a lot of that.
+It&rsquo;s one lesson from thirty years of open source and the long arc of companies that tried it the other way. Contribute upstream where it makes sense,
+build your expertise, package your opinions, and have the confidence to believe customers will choose you
+for what you bring to the table, not because you locked them out of alternatives.</p>
+<p>To me, the open source way doesn&rsquo;t have to be a constraint on your business. It can be the strategy.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        <li>
+        
+            <a href="https://sallyom.github.io/posts/openclaw-how-the-movement-becomes-a-standard/"><i class="fa fa-chevron-circle-left"></i> OpenClaw: How the Movement Becomes a Standard</a>
+        
+        </li>
+        <li>
+        
+        </li>
+    </ul>
+</section>
+  
+    
+    
+  
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="https://sallyom.github.io/images/headshot-cartoon.png" alt="Sally O'Malley" class="footer-headshot">
+            <div class="footer-text">
+                <ul>
+                    <li>
+                        <h6>Copyright © 2020-2025 - Sally Ann O&rsquo;Malley | 
+                            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+                            <a href="https://sallyom.github.io/index.xml">Subscribe </a></h6>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://sallyom.github.io/js/scripts.js"></script>
+
+  
+
+
+</body>
+
+</html>
+
